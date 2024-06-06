@@ -4,8 +4,8 @@ def start_game():
     print("Welcome to the Number Guessing Game!")
     while True:
         try:
-            lower_bound = int(input("Enter the lower bound of the range: "))
-            upper_bound = int(input("Enter the upper bound of the range: "))
+            lower_bound = int(input("Enter the lowest number of the range: "))
+            upper_bound = int(input("Enter the highest number of the range: "))
             if lower_bound >= upper_bound:
                 print("Lower bound should be less than upper bound. Please try again.")
                 continue
